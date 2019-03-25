@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kategoriler"
+            android:icon="@drawable/ic_menu_kategori"
+            android:title="Kategoriler"/>
+        <item
+            android:id="@+id/today"
+            android:icon="@drawable/ic_menu_date"
+            android:title="Bugün" />
+        <item
+            android:id="@+id/thisWeek"
+            android:icon="@drawable/ic_menu_date"
+            android:title="Bu hafta" />
+        <item
+            android:id="@+id/thisMonth"
+            android:icon="@drawable/ic_menu_date"
+            android:title="Bu Ay" />
+        <item
+            android:id="@+id/katildiklarim"
+            android:icon="@drawable/ic_menu_joins"
+            android:title="Katıldıklarım" />
+    </group>
+
+    <item android:title="Yararlı Linkler">
+        <menu>
+            <item
+                android:id="@+id/yemekhane"
+                android:icon="@drawable/ic_menu_food"
+                android:title="Üniversite Evi" />
+            <item
+                android:id="@+id/obs"
+                android:icon="@drawable/ic_menu_obs"
+                android:title="Öğrenci Bilgi Sistemi" />
+            <item
+                android:id="@+id/firat"
+                android:icon="@drawable/ic_menu_universite"
+                android:title="Fırat Üniversitesi" />
+        </menu>
+    </item>
+
+    <item android:title="Ayarlar">
+        <menu>
+            <item
+                android:id="@+id/adminBasvuru"
+                android:icon="@drawable/ic_menu_admin"
+                android:title="Yöneticilik Başvurusu" />
+            <item
+                android:id="@+id/userSettings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="Hesap Ayarları" />
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Çıkış" />
+        </menu>
+    </item>
+
+</menu>

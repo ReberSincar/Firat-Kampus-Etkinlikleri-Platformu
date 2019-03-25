@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".Activity.UserSettings.UsersSettingsActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <Button
+            android:id="@+id/userSettingsBilgiBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonlayout"
+            android:text="Bilgileri Değiştir"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/userSettingsGuvenlikBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonlayout"
+            android:text="Güvenlik İşlemleri"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/userSettingPassBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonlayout"
+            android:text="Parola Değiştir"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

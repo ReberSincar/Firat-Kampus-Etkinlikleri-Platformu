@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".Activity.AdminActivitys.UpdateMyPost">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ETKİNLİK GÜNCELLE"
+                android:background="#50020f"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Etkinlik Başlığı"
+                android:id="@+id/updateHeader"/>
+
+            <EditText
+                android:id="@+id/updateContent"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:hint="Etkinlik İçeriği"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+            <Spinner
+                android:id="@+id/updatePostKategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:id="@+id/updateImage"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_menu_camera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:text="Etkinlik Tarihi"/>
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/updateDate"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false">
+
+            </DatePicker>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:text="Etkinlik Saati"/>
+            <TimePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/updateTime"
+                android:timePickerMode="spinner">
+
+            </TimePicker>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/btnUpdate"
+                android:text="Güncelle"
+                android:background="@drawable/buttonlayout"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

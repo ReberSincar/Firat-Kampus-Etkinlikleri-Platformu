@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myPostsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfe6e9"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.KategoriActivity">
+
+    <TextView
+        android:id="@+id/kategoriHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#50020f"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_margin="10dp"
+        android:id="@+id/kategoriPosts"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"></ListView>
+
+
+</LinearLayout>

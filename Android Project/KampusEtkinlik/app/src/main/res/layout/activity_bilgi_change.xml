@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Activity.UserSettings.BilgiChangeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="BİLGİLERİ DEĞİŞTİR"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:id="@+id/bilgiDegisAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="AD"/>
+    <EditText
+        android:id="@+id/bilgiDegisSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="SOYAD"/>
+    <EditText
+        android:id="@+id/bilgiDegisMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="MAİL"/>
+
+    <EditText
+        android:id="@+id/bilgiDegisPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="PAROLA"/>
+
+    <Button
+        android:id="@+id/bilgiBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="DEĞİŞTİR"
+        android:background="@drawable/buttonlayout"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
