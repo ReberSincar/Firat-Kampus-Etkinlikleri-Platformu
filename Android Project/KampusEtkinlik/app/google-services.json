@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "563541938144",
+    "firebase_url": "https://kampus-83774.firebaseio.com",
+    "project_id": "kampus-83774",
+    "storage_bucket": "kampus-83774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563541938144:android:12c92bed01d20144",
+        "android_client_info": {
+          "package_name": "com.rebersincar.kampusetkinlik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563541938144-2ofd5gh7n8k2igicud0jui4r6gelml7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_05t6JXY1evFGktlejEr6EK-W8hidio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
