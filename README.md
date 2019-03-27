@@ -1,0 +1,1 @@
+# Firat-Kampus-Etkinlikleri-Platformu
